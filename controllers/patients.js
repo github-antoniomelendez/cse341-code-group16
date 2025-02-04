@@ -18,4 +18,4 @@ const getSingle = async (req, res) => {
     });
 };
 
-module.exports = {getAll, getSingle}
+module.exports = {getAll, getSingle};
