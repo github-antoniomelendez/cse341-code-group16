@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const patientsController = require('../controllers/practitioners');
+const practitionersController = require('../controllers/practitioners');
 
-router.get('/', patientsController.getAll);
-router.get('/:id', patientsController.getSingle);
+router.get('/', practitionersController.getAll);
+router.get('/:id', practitionersController.getSingle);
 
 module.exports = router;

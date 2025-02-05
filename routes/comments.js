@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const patientsController = require('../controllers/comments');
+const commentsController = require('../controllers/comments');
 
-router.get('/', patientsController.getAll);
-router.get('/:id', patientsController.getSingle);
+router.get('/', commentsController.getAll);
+router.get('/:id', commentsController.getSingle);
 
 module.exports = router;
