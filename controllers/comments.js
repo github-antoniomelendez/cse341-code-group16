@@ -17,5 +17,5 @@ const getSingle = async (req, res) => {
       res.status(200).json(comments[0]);
     });
 };
-
+//added the .env
 module.exports = {getAll, getSingle};
